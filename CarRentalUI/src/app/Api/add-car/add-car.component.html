@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row m-5">
+        <div class="col-6 offset-3">
+            <h4 class="display-4 p-4 text-center">Add a New Car</h4>
+            <hr>
+            <form class="row g-3" autocomplete="off" #myForm ="ngForm" (ngSubmit)="myForm.form.valid && submit(myForm)">
+                <div class="col-md-6">
+                  <label for="brand" class="form-label">Brand</label>
+                  <input type="text" name="brand" class="form-control" id="brand" #brand="ngModel" [(ngModel)]="AddService.carData.brand">
+                </div>
+                <div class="col-md-6">
+                  <label for="model" class="form-label">Model</label>
+                  <input type="text" name="model" class="form-control" id="model" #model="ngModel" [(ngModel)]="AddService.carData.model">
+                </div>
+                <div class="col-md-6">
+                  <label for="registration_Year" class="form-label">Registration_Year</label>
+                  <input type="number" class="form-control" name="registration_Year" #registration_Year="ngModel" [(ngModel)]="AddService.carData.registration_Year">
+                </div>
+                <div class="col-md-6">
+                    <label for="registration_Number" class="form-label">Registration_Number</label>
+                    <input type="text" class="form-control" name="registration_Number" #registration_Number="ngModel" [(ngModel)]="AddService.carData.registration_Number">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="fuel_Type" class="form-label">Fuel_Type</label>
+                    <input type="text" class="form-control" name="fuel_Type" #fuel_Type="ngModel" [(ngModel)]="AddService.carData.fuel_Type">
+                  </div>
+                  <div class="col-md-6">
+                      <label for="seating_Capacity" class="form-label">Seating_Capacity</label>
+                      <input type="number" class="form-control" name="seating_Capacity" #seating_Capacity="ngModel" [(ngModel)]="AddService.carData.seating_Capacity">
+                    </div>
+                  <div class="col-md-6">
+                    <label for="addedDate" class="form-label">AddedDate</label>
+                    <input type="date" class="form-control" name="addedDate" #addedDate="ngModel" [(ngModel)]="AddService.carData.addedDate">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="dailyHirePrice" class="form-label">Daily Hire Price</label>
+                    <input type="number" class="form-control" name="dailyHirePrice" #dailyHirePrice="ngModel" [(ngModel)]="AddService.carData.dailyHirePrice">
+                  </div>
+                <div class="col-2">
+                  <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+                <div class="col-1">
+                  <button type="reset" class="btn btn-danger">Reset</button>
+                </div>
+              </form>
+        </div>
+    </div>
+
+</div>
