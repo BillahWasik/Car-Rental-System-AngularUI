@@ -1,0 +1,29 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Driver_Name</th>
+            <th>City</th>
+            <th>District</th>
+            <th>Mobile_Number</th>
+            <th>Age</th>
+            <th>Driving_Year</th>
+            <th> Experience</th>
+            <th>Actions</th>
+        </tr>
+       
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of service.AllDriver">
+            <td>{{item.Id}}</td>
+            <td>{{item.Driver_Name}}</td>
+            <td>{{item.City}}</td>
+            <td>{{item.District}}</td>
+            <td>{{item.Mobile_Number}}</td>
+            <td>{{item.Age}}</td>
+            <td>{{item.Driving_Year}}</td>
+            <td>{{item.Experience}}</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
