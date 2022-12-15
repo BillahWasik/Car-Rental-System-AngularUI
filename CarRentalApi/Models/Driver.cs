@@ -19,5 +19,10 @@
             }
 
         }
+
+        internal bool Any()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

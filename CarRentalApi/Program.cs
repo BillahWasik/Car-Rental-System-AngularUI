@@ -14,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<ICarRepository,CarRepository>();
+builder.Services.AddScoped<IDriverRepository, DriverRepository>();
 
 builder.Services.AddCors(options =>
 {
