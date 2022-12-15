@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Full_Stack\\CarRentalApi\\CarRentalApi.csproj": {}
+    "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\CarRentalApi.csproj": {}
   },
   "projects": {
-    "F:\\Full_Stack\\CarRentalApi\\CarRentalApi.csproj": {
+    "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\CarRentalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Full_Stack\\CarRentalApi\\CarRentalApi.csproj",
+        "projectUniqueName": "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\CarRentalApi.csproj",
         "projectName": "CarRentalApi",
-        "projectPath": "F:\\Full_Stack\\CarRentalApi\\CarRentalApi.csproj",
+        "projectPath": "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\CarRentalApi.csproj",
         "packagesPath": "C:\\Users\\Wasik\\.nuget\\packages\\",
-        "outputPath": "F:\\Full_Stack\\CarRentalApi\\obj\\",
+        "outputPath": "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wasik\\AppData\\Roaming\\NuGet\\NuGet.Config",

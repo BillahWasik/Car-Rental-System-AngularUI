@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KQs9sCazyA5MTjKBVtWHp7+zur2R1Dn6D4/akAQgZl6fgQ1iYVh7sMnkaa0J/y21iSi190YWCzlY4nozZvCCDg==",
+  "dgSpecHash": "Nzd+NMJLMWwR5SAHYDxwH3/LvL5+J4WMTl8H4I92us6r0t15ufIcz5W0P/Oy//pgUj/kXjnAJJeTyyubevkGHw==",
   "success": true,
-  "projectFilePath": "F:\\Full_Stack\\CarRentalApi\\CarRentalApi.csproj",
+  "projectFilePath": "F:\\Full_Stack\\Car-Rental-System-AngularUI\\CarRentalApi\\CarRentalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wasik\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Wasik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
