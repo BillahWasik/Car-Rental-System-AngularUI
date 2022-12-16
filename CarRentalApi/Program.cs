@@ -18,9 +18,16 @@ builder.Services.AddScoped<IDriverRepository, DriverRepository>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddPolicy("Policy", builder =>
     {
-        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        builder.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
+    });
+});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("DriverPolicy", builder =>
+    {
+        builder.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
     });
 });
 
@@ -32,8 +39,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors();
+app.UseCors("Policy");
+
 app.UseAuthorization();
+app.UseResponseCaching();
 
 app.MapControllers();
 

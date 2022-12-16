@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'car',component:CarComponent},
   {path:'car/addcar',component:AddCarComponent},
   {path:'car/updatecar',component:UpdatecarComponent},
-  {path:'driver/allcar',component:AllDriverComponent}
+  {path:'driver',component:AllDriverComponent}
 ];
 
 @NgModule({
