@@ -1,5 +1,5 @@
 export class Driver{
-    
+
     Id : number ;
     Driver_Name : string;
     City : string;

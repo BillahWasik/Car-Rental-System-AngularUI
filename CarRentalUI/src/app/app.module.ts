@@ -8,7 +8,7 @@ import {HttpClientModule } from '@angular/common/http';
 import { AddCarComponent } from './Api/add-car/add-car.component'
 import { FormsModule } from '@angular/forms';
 import { UpdatecarComponent } from './Api/updatecar/updatecar.component';
-import { AllDriverComponent } from './DriverApi/all-driver/all-driver.component';
+import { GetDriversComponent } from './Api/Driver/get-drivers/get-drivers.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { AllDriverComponent } from './DriverApi/all-driver/all-driver.component'
     CarComponent,
     AddCarComponent,
     UpdatecarComponent,
-    AllDriverComponent
+    GetDriversComponent,
   ],
   imports: [
     BrowserModule,
